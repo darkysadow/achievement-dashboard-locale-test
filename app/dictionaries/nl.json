@@ -1,0 +1,234 @@
+{
+  "allAchievements": {
+    "title": "Prestaties",
+    "percent": 87,
+    "bestText": ["Je bent beter dan", "% van de specialisten!"],
+    "progress": {
+      "text": "Prestaties ontgrendeld",
+      "value": 18,
+      "total": 143
+    },
+    "firstRank": {
+      "text": "Rang 1 prestaties ontgrendeld",
+      "value": 8
+    },
+    "secondRank": {
+      "text": "Rang 2 prestaties ontgrendeld",
+      "value": 7
+    },
+    "thirdRank": {
+      "text": "Rang 3 prestaties ontgrendeld",
+      "value": 3
+    },
+    "closed": {
+      "text": "Prestaties vergrendeld",
+      "value": 123
+    },
+    "cards": [
+      {
+        "text": "Alle prestaties",
+        "value": 134
+      },
+      {
+        "text": "Platformprestaties",
+        "value": 56
+      },
+      {
+        "text": "Specialistenprestaties",
+        "value": 23
+      }
+    ],
+    "select": [
+      {
+        "text": "Alle rangen",
+        "value": "allRanks"
+      },
+      {
+        "text": "Rang 1",
+        "value": "firstRank"
+      },
+      {
+        "text": "Rang 2",
+        "value": "secondRank"
+      },
+      {
+        "text": "Rang 3",
+        "value": "thirdRank"
+      }
+    ]
+  },
+  "platformAchievements": {
+    "title": "Prestaties op het platform",
+    "countOfAchievements": 56,
+    "items": [
+      {
+        "available": true,
+        "name": "Documentalist",
+        "completedText": "30 nuttige documenten toegevoegd.",
+        "progress": 100,
+        "progressNeeded": 100,
+        "tooltipText": "Hier wordt een tooltiptekst weergegeven",
+        "bg": "dark"
+      },
+      {
+        "available": true,
+        "name": "Artikel Auteur",
+        "completedText": "Voor gepubliceerde blogartikelen",
+        "progress": 100,
+        "progressNeeded": 100,
+        "tooltipText": "Hier wordt een tooltiptekst weergegeven",
+        "bg": "dark"
+      },
+      {
+        "available": true,
+        "name": "Artikel Auteur",
+        "completedText": "Voor gepubliceerde blogartikelen",
+        "progress": 100,
+        "progressNeeded": 100,
+        "tooltipText": "Hier wordt een tooltiptekst weergegeven",
+        "bg": "dark"
+      },
+      {
+        "available": true,
+        "name": "Artikel Auteur",
+        "completedText": "Voor gepubliceerde blogartikelen",
+        "progress": 100,
+        "progressNeeded": 100,
+        "tooltipText": "Hier wordt een tooltiptekst weergegeven",
+        "bg": "dark"
+      },
+      {
+        "available": true,
+        "name": "Documentalist",
+        "completedText": "30 nuttige documenten toegevoegd.",
+        "progress": 65,
+        "progressNeeded": 100,
+        "tooltipText": "Hier wordt een tooltiptekst weergegeven",
+        "bg": "dark"
+      },
+      {
+        "available": true,
+        "name": "Documentalist",
+        "completedText": "30 nuttige documenten toegevoegd.",
+        "progress": 65,
+        "progressNeeded": 100,
+        "tooltipText": "Hier wordt een tooltiptekst weergegeven",
+        "bg": "dark"
+      },
+      {
+        "available": true,
+        "name": "Documentalist",
+        "completedText": "30 nuttige documenten toegevoegd.",
+        "progress": 12,
+        "progressNeeded": 50,
+        "tooltipText": "Hier wordt een tooltiptekst weergegeven",
+        "bg": "gold"
+      },
+      {
+        "available": true,
+        "name": "Artikel Auteur",
+        "completedText": "Voor gepubliceerde blogartikelen",
+        "progress": 12,
+        "progressNeeded": 50,
+        "tooltipText": "Hier wordt een tooltiptekst weergegeven",
+        "bg": "gold"
+      },
+      {
+        "available": true,
+        "name": "Artikel Auteur",
+        "completedText": "Voor gepubliceerde blogartikelen",
+        "progress": 12,
+        "progressNeeded": 50,
+        "tooltipText": "Hier wordt een tooltiptekst weergegeven",
+        "bg": "gold"
+      },
+      {
+        "available": true,
+        "name": "Artikel Auteur",
+        "completedText": "Voor gepubliceerde blogartikelen",
+        "progress": 2,
+        "progressNeeded": 8,
+        "tooltipText": "Hier wordt een tooltiptekst weergegeven",
+        "bg": "silver"
+      },
+      {
+        "available": true,
+        "name": "Documentalist",
+        "completedText": "30 nuttige documenten toegevoegd.",
+        "progress": 2,
+        "progressNeeded": 8,
+        "tooltipText": "Hier wordt een tooltiptekst weergegeven",
+        "bg": "silver"
+      },
+      {
+        "available": false,
+        "name": "Kennismaking",
+        "completedText": "Volledige kennismaking met het platform voltooid",
+        "progress": 0,
+        "progressNeeded": 8,
+        "tooltipText": "Hier wordt een tooltiptekst weergegeven",
+        "bg": "dark"
+      }
+    ]
+  },
+  "specialistAchievements": {
+    "title": "Specialistische prestaties",
+    "countOfAchievements": 86,
+    "items": [
+      {
+        "available": true,
+        "name": "Documentalist",
+        "completedText": "30 nuttige documenten toegevoegd.",
+        "progress": 100,
+        "progressNeeded": 100,
+        "tooltipText": "Hier wordt een tooltiptekst weergegeven",
+        "bg": "dark"
+      },
+      {
+        "available": true,
+        "name": "Artikelauteur",
+        "completedText": "Voor gepubliceerde artikelen op de blog",
+        "progress": 100,
+        "progressNeeded": 100,
+        "tooltipText": "Hier wordt een tooltiptekst weergegeven",
+        "bg": "dark"
+      },
+      {
+        "available": true,
+        "name": "Artikelauteur",
+        "completedText": "Voor gepubliceerde artikelen op de blog",
+        "progress": 100,
+        "progressNeeded": 100,
+        "tooltipText": "Hier wordt een tooltiptekst weergegeven",
+        "bg": "dark"
+      },
+      {
+        "available": true,
+        "name": "Artikelauteur",
+        "completedText": "Voor gepubliceerde artikelen op de blog",
+        "progress": 100,
+        "progressNeeded": 100,
+        "tooltipText": "Hier wordt een tooltiptekst weergegeven",
+        "bg": "dark"
+      },
+      {
+        "available": true,
+        "name": "Documentalist",
+        "completedText": "30 nuttige documenten toegevoegd.",
+        "progress": 65,
+        "progressNeeded": 100,
+        "tooltipText": "Hier wordt een tooltiptekst weergegeven",
+        "bg": "dark"
+      },
+      {
+        "available": true,
+        "name": "Documentalist",
+        "completedText": "30 nuttige documenten toegevoegd.",
+        "progress": 65,
+        "progressNeeded": 100,
+        "tooltipText": "Hier wordt een tooltiptekst weergegeven",
+        "bg": "dark"
+      }
+    ]
+  }
+}

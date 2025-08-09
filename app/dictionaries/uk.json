@@ -1,0 +1,235 @@
+{
+  "allAchievements": {
+    "title": "Досягнення",
+    "percent": 87,
+    "bestText": ["Ви крутіші, ніж", "% спеціалістів!"],
+    "progress": {
+      "text": "Відкрито досягнень",
+      "value": 18,
+      "total": 143
+    },
+    "firstRank": {
+      "text": "Досягнень відкрито 1 рангу",
+      "value": 8
+    },
+    "secondRank": {
+      "text": "Досягнень відкрито 2 рангу",
+      "value": 7
+    },
+    "thirdRank": {
+      "text": "Досягнень відкрито 3 рангу",
+      "value": 3
+    },
+    "closed": {
+      "text": "Досягнень закрито",
+      "value": 123
+    },
+    "cards": [
+      {
+        "text": "Всі досягнення",
+        "value": 134
+      },
+      {
+        "text": "Досягення на платформі",
+        "value": 56
+      },
+      {
+        "text": "Досягнення спеціаліста",
+        "value": 23
+      }
+    ],
+    "select": [
+      {
+        "text": "Всі ранги",
+        "value": "allRanks"
+      },
+      {
+        "text": "1 ранг",
+        "value": "firstRank"
+      },
+      {
+        "text": "2 ранг",
+        "value": "secondRank"
+      },
+      {
+        "text": "3 ранг",
+        "value": "thirdRank"
+      }
+    ]
+  },
+  "platformAchievements": {
+    "title": "Досягнення на платформі",
+    "countOfAchievements": 56,
+    "items": [
+      {
+        "available": true,
+        "name": "Документаліст",
+        "completedText": "Додано 30 корисних документів.",
+        "progress": 100,
+        "progressNeeded": 100,
+        "tooltipText": "Тут буде відображено текст-підказка",
+        "bg": "dark"
+      },
+      {
+        "available": true,
+        "name": "Автор статей",
+        "completedText": "За опубліковані статі в блозі",
+        "progress": 100,
+        "progressNeeded": 100,
+        "tooltipText": "Тут буде відображено текст-підказка",
+        "bg": "dark"
+      },
+      {
+        "available": true,
+        "name": "Автор статей",
+        "completedText": "За опубліковані статі в блозі",
+        "progress": 100,
+        "progressNeeded": 100,
+        "tooltipText": "Тут буде відображено текст-підказка",
+        "bg": "dark"
+      },
+      {
+        "available": true,
+        "name": "Автор статей",
+        "completedText": "За опубліковані статі в блозі",
+        "progress": 100,
+        "progressNeeded": 100,
+        "tooltipText": "Тут буде відображено текст-підказка",
+        "bg": "dark"
+      },
+      {
+        "available": true,
+        "name": "Документаліст",
+        "completedText": "Додано 30 корисних документів.",
+        "progress": 65,
+        "progressNeeded": 100,
+        "tooltipText": "Тут буде відображено текст-підказка",
+        "bg": "dark"
+      },
+      {
+        "available": true,
+        "name": "Документаліст",
+        "completedText": "Додано 30 корисних документів.",
+        "progress": 65,
+        "progressNeeded": 100,
+        "tooltipText": "Тут буде відображено текст-підказка",
+        "bg": "dark"
+      },
+
+      {
+        "available": true,
+        "name": "Документаліст",
+        "completedText": "Додано 30 корисних документів.",
+        "progress": 12,
+        "progressNeeded": 50,
+        "tooltipText": "Тут буде відображено текст-підказка",
+        "bg": "gold"
+      },
+      {
+        "available": true,
+        "name": "Автор статей",
+        "completedText": "За опубліковані статі в блозі",
+        "progress": 12,
+        "progressNeeded": 50,
+        "tooltipText": "Тут буде відображено текст-підказка",
+        "bg": "gold"
+      },
+      {
+        "available": true,
+        "name": "Автор статей",
+        "completedText": "За опубліковані статі в блозі",
+        "progress": 12,
+        "progressNeeded": 50,
+        "tooltipText": "Тут буде відображено текст-підказка",
+        "bg": "gold"
+      },
+      {
+        "available": true,
+        "name": "Автор статей",
+        "completedText": "За опубліковані статі в блозі",
+        "progress": 2,
+        "progressNeeded": 8,
+        "tooltipText": "Тут буде відображено текст-підказка",
+        "bg": "silver"
+      },
+      {
+        "available": true,
+        "name": "Документаліст",
+        "completedText": "Додано 30 корисних документів.",
+        "progress": 2,
+        "progressNeeded": 8,
+        "tooltipText": "Тут буде відображено текст-підказка",
+        "bg": "silver"
+      },
+      {
+        "available": false,
+        "name": "Знайомство",
+        "completedText": "Здійснено повне знайомство з платформою",
+        "progress": 0,
+        "progressNeeded": 8,
+        "tooltipText": "Тут буде відображено текст-підказка",
+        "bg": "dark"
+      }
+    ]
+  },
+  "specialistAchievements": {
+    "title": "Досягнення спеціаліста",
+    "countOfAchievements": 86,
+    "items": [
+      {
+        "available": true,
+        "name": "Документаліст",
+        "completedText": "Додано 30 корисних документів.",
+        "progress": 100,
+        "progressNeeded": 100,
+        "tooltipText": "Тут буде відображено текст-підказка",
+        "bg": "dark"
+      },
+      {
+        "available": true,
+        "name": "Автор статей",
+        "completedText": "За опубліковані статі в блозі",
+        "progress": 100,
+        "progressNeeded": 100,
+        "tooltipText": "Тут буде відображено текст-підказка",
+        "bg": "dark"
+      },
+      {
+        "available": true,
+        "name": "Автор статей",
+        "completedText": "За опубліковані статі в блозі",
+        "progress": 100,
+        "progressNeeded": 100,
+        "tooltipText": "Тут буде відображено текст-підказка",
+        "bg": "dark"
+      },
+      {
+        "available": true,
+        "name": "Автор статей",
+        "completedText": "За опубліковані статі в блозі",
+        "progress": 100,
+        "progressNeeded": 100,
+        "tooltipText": "Тут буде відображено текст-підказка",
+        "bg": "dark"
+      },
+      {
+        "available": true,
+        "name": "Документаліст",
+        "completedText": "Додано 30 корисних документів.",
+        "progress": 65,
+        "progressNeeded": 100,
+        "tooltipText": "Тут буде відображено текст-підказка",
+        "bg": "dark"
+      },
+      {
+        "available": true,
+        "name": "Документаліст",
+        "completedText": "Додано 30 корисних документів.",
+        "progress": 65,
+        "progressNeeded": 100,
+        "tooltipText": "Тут буде відображено текст-підказка",
+        "bg": "dark"
+      }
+    ]
+  }
+}

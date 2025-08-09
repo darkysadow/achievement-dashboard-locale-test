@@ -1,0 +1,234 @@
+{
+  "allAchievements": {
+    "title": "Achievements",
+    "percent": 87,
+    "bestText": ["You're better than", "% of specialists!"],
+    "progress": {
+      "text": "Achievements unlocked",
+      "value": 18,
+      "total": 143
+    },
+    "firstRank": {
+      "text": "Rank 1 achievements unlocked",
+      "value": 8
+    },
+    "secondRank": {
+      "text": "Rank 2 achievements unlocked",
+      "value": 7
+    },
+    "thirdRank": {
+      "text": "Rank 3 achievements unlocked",
+      "value": 3
+    },
+    "closed": {
+      "text": "Achievements locked",
+      "value": 123
+    },
+    "cards": [
+      {
+        "text": "All achievements",
+        "value": 134
+      },
+      {
+        "text": "Platform achievements",
+        "value": 56
+      },
+      {
+        "text": "Specialist achievements",
+        "value": 23
+      }
+    ],
+    "select": [
+      {
+        "text": "All ranks",
+        "value": "allRanks"
+      },
+      {
+        "text": "Rank 1",
+        "value": "firstRank"
+      },
+      {
+        "text": "Rank 2",
+        "value": "secondRank"
+      },
+      {
+        "text": "Rank 3",
+        "value": "thirdRank"
+      }
+    ]
+  },
+  "platformAchievements": {
+    "title": "Platform Achievements",
+    "countOfAchievements": 56,
+    "items": [
+      {
+        "available": true,
+        "name": "Documentalist",
+        "completedText": "Added 30 useful documents.",
+        "progress": 100,
+        "progressNeeded": 100,
+        "tooltipText": "A tooltip text will be displayed here",
+        "bg": "dark"
+      },
+      {
+        "available": true,
+        "name": "Article Author",
+        "completedText": "For published blog articles",
+        "progress": 100,
+        "progressNeeded": 100,
+        "tooltipText": "A tooltip text will be displayed here",
+        "bg": "dark"
+      },
+      {
+        "available": true,
+        "name": "Article Author",
+        "completedText": "For published blog articles",
+        "progress": 100,
+        "progressNeeded": 100,
+        "tooltipText": "A tooltip text will be displayed here",
+        "bg": "dark"
+      },
+      {
+        "available": true,
+        "name": "Article Author",
+        "completedText": "For published blog articles",
+        "progress": 100,
+        "progressNeeded": 100,
+        "tooltipText": "A tooltip text will be displayed here",
+        "bg": "dark"
+      },
+      {
+        "available": true,
+        "name": "Documentalist",
+        "completedText": "Added 30 useful documents.",
+        "progress": 65,
+        "progressNeeded": 100,
+        "tooltipText": "A tooltip text will be displayed here",
+        "bg": "dark"
+      },
+      {
+        "available": true,
+        "name": "Documentalist",
+        "completedText": "Added 30 useful documents.",
+        "progress": 65,
+        "progressNeeded": 100,
+        "tooltipText": "A tooltip text will be displayed here",
+        "bg": "dark"
+      },
+      {
+        "available": true,
+        "name": "Documentalist",
+        "completedText": "Added 30 useful documents.",
+        "progress": 12,
+        "progressNeeded": 50,
+        "tooltipText": "A tooltip text will be displayed here",
+        "bg": "gold"
+      },
+      {
+        "available": true,
+        "name": "Article Author",
+        "completedText": "For published blog articles",
+        "progress": 12,
+        "progressNeeded": 50,
+        "tooltipText": "A tooltip text will be displayed here",
+        "bg": "gold"
+      },
+      {
+        "available": true,
+        "name": "Article Author",
+        "completedText": "For published blog articles",
+        "progress": 12,
+        "progressNeeded": 50,
+        "tooltipText": "A tooltip text will be displayed here",
+        "bg": "gold"
+      },
+      {
+        "available": true,
+        "name": "Article Author",
+        "completedText": "For published blog articles",
+        "progress": 2,
+        "progressNeeded": 8,
+        "tooltipText": "A tooltip text will be displayed here",
+        "bg": "silver"
+      },
+      {
+        "available": true,
+        "name": "Documentalist",
+        "completedText": "Added 30 useful documents.",
+        "progress": 2,
+        "progressNeeded": 8,
+        "tooltipText": "A tooltip text will be displayed here",
+        "bg": "silver"
+      },
+      {
+        "available": false,
+        "name": "Introduction",
+        "completedText": "Completed full platform introduction",
+        "progress": 0,
+        "progressNeeded": 8,
+        "tooltipText": "A tooltip text will be displayed here",
+        "bg": "dark"
+      }
+    ]
+  },
+  "specialistAchievements": {
+    "title": "Specialist Achievements",
+    "countOfAchievements": 86,
+    "items": [
+      {
+        "available": true,
+        "name": "Documentalist",
+        "completedText": "Added 30 useful documents.",
+        "progress": 100,
+        "progressNeeded": 100,
+        "tooltipText": "A tooltip text will be displayed here",
+        "bg": "dark"
+      },
+      {
+        "available": true,
+        "name": "Article Author",
+        "completedText": "For published articles in the blog",
+        "progress": 100,
+        "progressNeeded": 100,
+        "tooltipText": "A tooltip text will be displayed here",
+        "bg": "dark"
+      },
+      {
+        "available": true,
+        "name": "Article Author",
+        "completedText": "For published articles in the blog",
+        "progress": 100,
+        "progressNeeded": 100,
+        "tooltipText": "A tooltip text will be displayed here",
+        "bg": "dark"
+      },
+      {
+        "available": true,
+        "name": "Article Author",
+        "completedText": "For published articles in the blog",
+        "progress": 100,
+        "progressNeeded": 100,
+        "tooltipText": "A tooltip text will be displayed here",
+        "bg": "dark"
+      },
+      {
+        "available": true,
+        "name": "Documentalist",
+        "completedText": "Added 30 useful documents.",
+        "progress": 65,
+        "progressNeeded": 100,
+        "tooltipText": "A tooltip text will be displayed here",
+        "bg": "dark"
+      },
+      {
+        "available": true,
+        "name": "Documentalist",
+        "completedText": "Added 30 useful documents.",
+        "progress": 65,
+        "progressNeeded": 100,
+        "tooltipText": "A tooltip text will be displayed here",
+        "bg": "dark"
+      }
+    ]
+  }
+}

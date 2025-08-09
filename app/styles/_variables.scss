@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@font-face {
+    font-family: 'Museo Cyrl 500';
+    src: url('/fonts/MuseoCyrl500.otf') format('opentype'), 
+        url('/fonts/MuseoCyrl-500.woff2') format('woff2'),
+        url('/fonts/MuseoCyrl-500.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+$section-bg-primary: #25252599;
+$gold-lite: #AF8D6C;
+$gray-lite: #A7A7A7;
+$border: #65656580;
+$black: #0a0a0a;
+$white: #fff;
+$gray: #656565;
+$dot-border: #535353;
+$progress-bg: linear-gradient(270deg, #D5BA94 0%, #B98756 50%, #534434 100%);
+
+
+$bg-card: linear-gradient(180deg, rgba(40, 40, 40, 0.6) 0%, rgba(12, 11, 11, 0.6) 100%);
+$bg-card-gold: linear-gradient(360deg, rgba(105, 83, 63, 0.6) 0%, rgba(180, 149, 122, 0.6) 100%);
+$bg-card-silver: linear-gradient(180deg, rgba(94, 94, 94, 0.6) 0%, rgba(58, 58, 58, 0.6) 100%);
+
+$primary-font: 'Raleway', sans-serif;
+$secondary-font: 'Museo Cyrl 500', sans-serif, 

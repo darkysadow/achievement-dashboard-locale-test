@@ -1,0 +1,20 @@
+.progressBar {
+    height: 0.25rem;
+    display: flex;
+    flex-direction: row;
+    div {
+        height: 0.25rem;
+    }
+}
+
+.progress {
+    background: $progress-bg;
+}
+
+.emptyProgress {
+    background-color: $gray;
+    backdrop-filter: blur(1px);
+    box-shadow: 0px 1px 2px 0px #00000026;
+    box-shadow: 0px 2px 1px 0px #FFFFFF40 inset;
+    box-shadow: 0px -2px 1px 0px #00000026 inset;
+}

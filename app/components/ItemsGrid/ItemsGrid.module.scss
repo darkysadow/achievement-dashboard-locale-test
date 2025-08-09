@@ -1,0 +1,23 @@
+.wrapper {
+    background-color: $section-bg-primary;
+    padding: 1rem 0 0 0;
+    border-radius: 1.5rem;
+    border: 1px solid rgba($gray, 0.5);
+
+    @media (min-width: 768px) {
+        padding: 1.5rem 0 0 0;
+    }
+}
+
+.title {
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+
+    sup {
+        font-size: 1.25rem;
+        line-height: 1.1;
+        color: $gray-lite;
+    }
+}
