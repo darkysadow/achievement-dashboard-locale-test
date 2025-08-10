@@ -1,7 +1,7 @@
 .container {
     margin-top: 1rem;
 
-    @media (min-width: 1200px) {
+    @media (min-width: $desktop) {
         margin-top: 2rem;
     }
 }
@@ -10,7 +10,7 @@
     padding: 0 1rem !important;
     padding-bottom: 40px !important;
 
-    @media (min-width: 768px) {
+    @media (min-width: $tablet) {
         padding: 0 1.5rem !important;
         padding-bottom: 40px !important;
     }

@@ -4,7 +4,7 @@
     border-radius: 1.5rem;
     border: 1px solid rgba($gray, 0.5);
 
-    @media (min-width: 768px) {
+    @media (min-width: $tablet) {
         padding: 1.5rem;
     }
     overflow: hidden;
@@ -20,12 +20,12 @@
         background: linear-gradient(294.25deg, rgba(185, 135, 86, 0.27) 1.06%, rgba(83, 61, 39, 0) 80.88%);
         transform: rotate(-180deg);
 
-        @media (min-width: 768px) {
+        @media (min-width: $tablet) {
             width: 26.3125rem;
             height: 18.25rem;
         }
 
-        @media (min-width: 1200px) {
+        @media (min-width: $desktop) {
             width: 26.3125rem;
             height: 8.4375rem;
         }
@@ -41,12 +41,12 @@
         height: 120.13514vw;
         backdrop-filter: blur(27px);
 
-        @media (min-width: 768px) {
+        @media (min-width: $tablet) {
             width: 28.3125rem;
             height: 20.25rem;
         }
 
-        @media (min-width: 1200px) {
+        @media (min-width: $desktop) {
             width: 28.3125rem;
             height: 10.4375rem;
         }
@@ -64,7 +64,7 @@
     flex-direction: column;
     gap: 0.5rem;
 
-    @media (min-width: 1200px) {
+    @media (min-width: $desktop) {
         gap: 1rem;
     }
 
@@ -74,7 +74,7 @@
         font-weight: 500;
         line-height: 1.1;
 
-        @media (min-width: 1200px) {
+        @media (min-width: $desktop) {
             font-size: 2.375rem;
         }
     }
@@ -84,7 +84,7 @@
         line-height: 1.2;
         color: $gray-lite;
 
-        @media (min-width: 1200px) {
+        @media (min-width: $desktop) {
             font-size: 1.5rem;
             line-height: 1;
         }
@@ -92,11 +92,11 @@
 }
 
 .mainInfo {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
     margin-top: 1rem;
 
-    @media (min-width: 768px) {
+    @media (min-width: $tablet) {
         margin-top: 1.5rem;
     }
 }
@@ -109,7 +109,7 @@
     display: grid;
     gap: 0.5rem;
 
-    @media (min-width: 1200px) {
+    @media (min-width: $desktop) {
         grid-template-columns: repeat(2, 1fr);
     }
 }
@@ -134,7 +134,7 @@
         right: 0;
         z-index: -2;
 
-        @media (min-width: 1200px) {
+        @media (min-width: $desktop) {
             width: 6.8125rem;
         }
     }
@@ -150,7 +150,7 @@
         right: 0;
         z-index: -1;
 
-        @media (min-width: 1200px) {
+        @media (min-width: $desktop) {
             width: 10.0125rem;
         }
     }
@@ -162,7 +162,7 @@
     flex-direction: row;
     justify-content: space-between;
 
-    @media (min-width: 1200px) {
+    @media (min-width: $desktop) {
         align-items: center;
     }
 }
@@ -180,7 +180,7 @@
         color: $gray-lite;
     }
 
-    @media (min-width: 1200px) {
+    @media (min-width: $desktop) {
         align-items: center;
     }
 }
@@ -210,7 +210,7 @@
 .progressbarContainer {
     margin-top: 1rem;
 
-    @media (min-width: 1200px) {
+    @media (min-width: $desktop) {
         margin-top: 0.8125rem;
     }
 }
@@ -220,7 +220,7 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 0.5rem;
 
-    @media (min-width: 768px) {
+    @media (min-width: $tablet) {
         grid-template-columns: repeat(4, 1fr);
     }
 }
@@ -234,7 +234,7 @@
     flex-direction: column;
     gap: 1rem;
 
-    @media (max-width: 768px) {
+    @media (max-width: $tablet) {
         &:first-of-type {
             padding-bottom: 2rem;
         }
@@ -250,5 +250,30 @@
         font-size: 0.875rem;
         line-height: 1.2;
         color: $gray-lite;
+    }
+}
+
+.sliderContainer {
+    @media (min-width: $desktop) {
+        width: 81.50%;
+    }
+}
+
+.selectContainer {
+    @media (min-width: $desktop) {
+        width: calc(100% - 81.50% - 1.5rem);
+    }
+}
+
+.infoContainer {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    @media (min-width: $desktop) {
+        margin-top: 1.5rem;
+        gap: 1.5rem;
+        flex-direction: row;
     }
 }

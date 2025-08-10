@@ -66,7 +66,7 @@ export default function ItemsSlider({ variant, items }: ItemsSliderProps) {
               <div className={styles.item}>
                 {pair.map((item, idx) => (
                   item && (
-                    <div key={`${index}-${idx}`} className="h-full">
+                    <div key={`${index}-${idx}`}>
                       <ItemsSliderSlide {...item} />
                     </div>
                   )
@@ -77,7 +77,7 @@ export default function ItemsSlider({ variant, items }: ItemsSliderProps) {
         ) : (
           items.map((item, index) => (
             <SwiperSlide key={index}>
-              <div className="h-full">
+              <div>
                 <ItemsSliderSlide {...item} />
               </div>
             </SwiperSlide>

@@ -1,0 +1,118 @@
+.customSelect {
+    position: relative;
+    width: 100%;
+    font-family: inherit;
+    z-index: 1;
+
+    @media (max-width: $tablet) {
+        max-width: 18.125rem;
+    }
+
+    @media (min-width: $desktop) {
+        height: 100%;
+    }
+}
+
+.selectHeader {
+    padding: 1.65625rem 1rem;
+    border: 1px solid rgba($gray-blur, 0.6);
+    border-radius: 0.25rem;
+    cursor: pointer;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba($gray-blur, 0.6);
+    transition: all 0.2s ease;
+    color: $gray-lite;
+
+    @media (min-width: $tablet) {
+        padding: 1.027rem 1rem;
+    }
+
+    &:hover {
+        border-color: rgba($gray-lite, 0.2);
+    }
+
+    &.open {
+        border-color: rgba($gray-lite, 0.2)
+    }
+}
+
+.placeholder {
+    color: $gray-lite;
+}
+
+.selectedValue {
+    font-size: 0.875rem;
+    line-height: 1;
+    text-transform: uppercase;
+    color: $gray-lite;
+}
+
+.arrow {
+    transition: 0.2s ease all;
+
+    .open & {
+        transform: rotate(180deg);
+    }
+}
+
+.selectDropdown {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    max-height: 25rem;
+    overflow-y: auto;
+    margin-bottom: 0.25rem;
+    border: 1px solid rgba(37, 37, 37, 0.6);
+    border-radius: 0.5rem;
+    background-color: rgba(37, 37, 37, 0.9);
+    z-index: 10;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transform: translateY(-10px);
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    color: $gray-lite;
+
+    @media (min-width: $desktop) {
+        border-radius: 1rem;
+    }
+
+    .open & {
+        opacity: 1;
+        visibility: visible;
+        pointer-events: all;
+        transform: translateY(0);
+    }
+}
+
+.selectDropdownOpen {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+    transform: translateY(0);
+}
+
+.optionsList {
+    padding: 0.3125rem 0;
+}
+
+.option {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    color: $gray-lite;
+
+    &:hover {
+        background-color: rgba(167, 167, 167, 0.1);
+    }
+
+    &.selected {
+        background-color: rgba(167, 167, 167, 0.2);
+    }
+}

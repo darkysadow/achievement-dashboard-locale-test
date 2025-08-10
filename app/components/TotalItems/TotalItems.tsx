@@ -3,6 +3,8 @@ import styles from './TotalItems.module.scss'
 import { AllAchievements } from '@/app/types/types'
 import { AchievementsIcon } from '../icons/icons'
 import LinearProgressBar from '../Progress/Progress'
+import AchievementsSlider from '../swiper/AchievementsSlider'
+import { Select } from '../ui/select/Select'
 
 interface TotalItemsProps {
   achievements: AllAchievements
@@ -58,6 +60,14 @@ const TotalItems = (props: TotalItemsProps) => {
                 <p>{achievements.closed.value}</p>
                 <h3>{achievements.closed.text}</h3>
               </div>
+            </div>
+          </div>
+          <div className={styles.infoContainer}>
+            <div className={styles.sliderContainer}>
+              <AchievementsSlider items={achievements.cards} />
+            </div>
+            <div className={styles.selectContainer}>
+              <Select options={achievements.select} defaultValue={achievements.select[0]} />
             </div>
           </div>
         </div>
