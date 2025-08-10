@@ -12,14 +12,16 @@
 $section-bg-primary: #25252599;
 $gold-lite: #AF8D6C;
 $gray-lite: #A7A7A7;
+$gray-blur: #252525;
+$border-cards: #626262;
 $border: #65656580;
 $black: #0a0a0a;
 $white: #fff;
 $gray: #656565;
 $dot-border: #535353;
+
 $progress-bg: linear-gradient(270deg, #D5BA94 0%, #B98756 50%, #534434 100%);
-
-
+$progress-container-before-bg: linear-gradient(294.25deg, rgba(185, 135, 86, 0.27) 1.06%, rgba(83, 61, 39, 0) 80.88%);
 $bg-card: linear-gradient(180deg, rgba(40, 40, 40, 0.6) 0%, rgba(12, 11, 11, 0.6) 100%);
 $bg-card-gold: linear-gradient(360deg, rgba(105, 83, 63, 0.6) 0%, rgba(180, 149, 122, 0.6) 100%);
 $bg-card-silver: linear-gradient(180deg, rgba(94, 94, 94, 0.6) 0%, rgba(58, 58, 58, 0.6) 100%);

@@ -1,9 +1,34 @@
 .progressBar {
-    height: 0.25rem;
     display: flex;
     flex-direction: row;
+}
+
+.progressBar-primary {
+    height: 0.25rem;
     div {
         height: 0.25rem;
+    }
+}
+
+.progressBar-secondary {
+    height: 1.875rem;
+    box-sizing: border-box;
+    border: 0.5px solid $border;
+    padding: 0.25rem;
+    align-items: center;
+    gap: 0.25px;
+    border-radius: 0.5rem;
+    div {
+        height: 1.375rem;
+        border-radius: 0.25rem;
+    }
+
+    @media (min-width: 1200px) {
+        height: 2.5rem;
+
+        div {
+            height: 2rem;
+        }
     }
 }
 
